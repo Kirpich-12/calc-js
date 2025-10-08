@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 
-/* Контейнер калькулятора */
+
 .calculator {
   background: #fff;
   padding: 25px;
@@ -19,7 +19,6 @@ body {
   width: 320px;
 }
 
-/* Дисплей калькулятора */
 .display {
   background: #ffe4ec;
   border-radius: 15px;
@@ -33,7 +32,6 @@ body {
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Сетка кнопок */
 .keys {
   display: grid;
   gap: 12px;
@@ -45,7 +43,7 @@ body {
   gap: 12px;
 }
 
-/* Общие стили кнопок */
+
 .key {
   border: none;
   border-radius: 50%;
@@ -58,17 +56,17 @@ body {
   transition: all 0.15s ease;
 }
 
-/* Эффект при наведении */
+
 .key:hover {
   background-color: #ff99aa;
 }
 
-/* Эффект при нажатии */
+
 .key:active {
   transform: scale(0.95);
 }
 
-/* Операторы + кнопки функции */
+
 .operator {
   background-color: #ff85a2;
   color: #fff;
@@ -83,8 +81,11 @@ body {
   color: #333;
 }
 
-/* Кнопка "0" шире остальных */
 .wide {
   grid-column: span 2;
   border-radius: 30px;
+}
+
+#equ {
+    background-color:rgb(194, 54, 89);
 }
